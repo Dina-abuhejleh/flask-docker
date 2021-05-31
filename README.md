@@ -1,6 +1,6 @@
 # flask-docker
 
-docker pull din/first:v1
+docker pull dina/first:v1
 
 docker pull dina/database
 

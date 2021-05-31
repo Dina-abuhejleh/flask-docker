@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEMORY</title>
+</head>
+<body>
+<h1>
+    Current memory :
+  {{ value }}
+</h1>
+<table style="width:100%">
+    <tr>
+        <th>
+            Time
+        </th>
+        <th>
+            MEMORY
+        </th>
+    </tr>
+    {% for user in values %}
+    <tr>
+        <td>
+           {{ user.time }}
+        </td>
+        <td>
+            {{ user.memory }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

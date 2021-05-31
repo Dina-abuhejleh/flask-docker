@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DISK</title>
+</head>
+<body>
+<h1>
+    Current disk Usage:
+    {{value}}
+</h1>
+<table style="width:100%">
+    <tr>
+        <th>
+            Time
+        </th>
+        <th>
+            DISK
+        </th>
+    </tr>
+    {% for user in values %}
+    <tr>
+        <td>
+           {{ user.time }}
+        </td>
+        <td>
+            {{ user.disk }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

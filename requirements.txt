@@ -1,0 +1,6 @@
+Flask== 2.0.0
+flask
+python-crontab
+Flask-SQLAlchemy==2.5.1
+psycopg2-binary==2.8.6
+
